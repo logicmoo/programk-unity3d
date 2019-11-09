@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.springwald.gaitobot2", "de.springwald.gaitobot2.csproj", "{90C7B2C3-FAF3-4BA2-BE2F-3723E12F96F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90C7B2C3-FAF3-4BA2-BE2F-3723E12F96F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C7B2C3-FAF3-4BA2-BE2F-3723E12F96F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C7B2C3-FAF3-4BA2-BE2F-3723E12F96F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C7B2C3-FAF3-4BA2-BE2F-3723E12F96F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05C18F4B-1A31-46C5-ABF0-1C8229EC9D9D}
+	EndGlobalSection
+EndGlobal

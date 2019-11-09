@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\de.springwald.gaitobot.content.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79EDA14D-BBAD-4CEA-AB65-65499CD9B25E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>de.springwald.gaitobot.content</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>de.springwald.gaitobot.content</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="de.springwald.toolbox">
+      <HintPath>lib\de.springwald.toolbox.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContentDokument.cs" />
+    <Compile Include="ContentElementInfo.cs" />
+    <Compile Include="ContentManager.cs" />
+    <Compile Include="MultiLang\ml.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="content\deutsch.startup" />
+    <EmbeddedResource Include="content\deutsch\startup.info" />
+    <EmbeddedResource Include="content\deutsch_Grundwissen.info" />
+    <EmbeddedResource Include="content\deutsch_Linda_Beispielwissen.info" />
+    <EmbeddedResource Include="content\deutsch_Vereinfachungen.info" />
+    <EmbeddedResource Include="content\english.startup" />
+    <EmbeddedResource Include="content\english\startup.info" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\auf Fragen reagieren.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Begruessung+Abschied+WieGehts.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Beleidigungen.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Datum, Zeit.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Depressives Verhalten.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Diveres.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Identitaet+Chatbot.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Lob+Ablehnung.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\MeinName+DeinName.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Notfall Antworten.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Philosophie.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Sex + Sexuelle Belaestigung.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Standard-Reaktionen ohne Kontext.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Vorlieben+Persoenlichkeit.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Was ist dies - was ist das.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Wetter.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Grundwissen\Witzige Reaktionen.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Linda_Beispielwissen\definierte SRAI TARGETS.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Linda_Beispielwissen\GaitoBot.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Linda_Beispielwissen\Konditionen+Bezug_gaitoBot.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Linda_Beispielwissen\Konditionen+Bezug_webGaito.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Linda_Beispielwissen\Linda Avatar Detailfragen.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Linda_Beispielwissen\Linda.startup" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Linda_Beispielwissen\Notfallantworten.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Linda_Beispielwissen\webGaito.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Linda_Beispielwissen\Wort-Normierung.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Vereinfachungen\Bevorzugtes Thema.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Vereinfachungen\Du2Sie.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Vereinfachungen\Du2Sie_LassUnsDuzen.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Vereinfachungen\ja nein vielleicht.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Vereinfachungen\Korrekturen.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Vereinfachungen\Vereinfachungen.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Vereinfachungen\Was kostet X.aiml" />
+    <EmbeddedResource Include="content\GaitoBot_deutsch_Vereinfachungen\Wo bekommt man X.aiml" />
+    <EmbeddedResource Include="content\neutral.startup" />
+    <EmbeddedResource Include="content\neutral\startup.info" />
+    <EmbeddedResource Include="MultiLang.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

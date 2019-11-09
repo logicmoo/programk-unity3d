@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\Jint.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{962061CD-6A2A-4EA4-9335-37400911BFD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Jint</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>0.9.2.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Jint</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ES3Lexer.cs" />
+    <Compile Include="ES3Parser.cs" />
+    <Compile Include="CachedTypeResolver.cs" />
+    <Compile Include="Marshaller.cs" />
+    <Compile Include="DictionaryPropertyBag.cs" />
+    <Compile Include="DoubleListPropertyBag.cs" />
+    <Compile Include="IConstructorInvoker.cs" />
+    <Compile Include="IPropertyBag.cs" />
+    <Compile Include="Options.cs" />
+    <Compile Include="ExecutionVisitor.cs" />
+    <Compile Include="JintException.cs" />
+    <Compile Include="ITypeResolver.cs" />
+    <Compile Include="JintEngine.cs" />
+    <Compile Include="Number.cs" />
+    <Compile Include="Delegates\Action.cs" />
+    <Compile Include="Delegates\Action`2.cs" />
+    <Compile Include="Delegates\Action`3.cs" />
+    <Compile Include="Delegates\Func`1.cs" />
+    <Compile Include="Delegates\Func`2.cs" />
+    <Compile Include="Delegates\Func`3.cs" />
+    <Compile Include="Delegates\Func`4.cs" />
+    <Compile Include="Delegates\Func`5.cs" />
+    <Compile Include="PropertyBags\HashedPropertyBag.cs" />
+    <Compile Include="PropertyBags\MiniCachedPropertyBag.cs" />
+    <Compile Include="PropertyBags\ScopedPropertyBag.cs" />
+    <Compile Include="Expressions\IFunctionDeclaration.cs" />
+    <Compile Include="Expressions\IGenericExpression.cs" />
+    <Compile Include="Expressions\WithStatement.cs" />
+    <Compile Include="Expressions\PropertyExpressionType.cs" />
+    <Compile Include="Expressions\PropertyDeclarationExpression.cs" />
+    <Compile Include="Expressions\ArrayDeclaration.cs" />
+    <Compile Include="Expressions\CommaOperatorStatement.cs" />
+    <Compile Include="Expressions\ClrIdentifier.cs" />
+    <Compile Include="Expressions\IAssignable.cs" />
+    <Compile Include="Expressions\Identifier.cs" />
+    <Compile Include="Expressions\PropertyExpression.cs" />
+    <Compile Include="Expressions\IForStatement.cs" />
+    <Compile Include="Expressions\RegexpExpression.cs" />
+    <Compile Include="Expressions\JsonExpression.cs" />
+    <Compile Include="Expressions\FunctionExpression.cs" />
+    <Compile Include="Expressions\MemberExpression.cs" />
+    <Compile Include="Expressions\NewExpression.cs" />
+    <Compile Include="Expressions\MethodCall.cs" />
+    <Compile Include="Expressions\BinaryExpression.cs" />
+    <Compile Include="Expressions\BinaryExpressionType.cs" />
+    <Compile Include="Expressions\BlockStatement.cs" />
+    <Compile Include="Expressions\CaseClause.cs" />
+    <Compile Include="Expressions\AssignmentExpression.cs" />
+    <Compile Include="Expressions\AssignmentOperator.cs" />
+    <Compile Include="Expressions\CatchClause.cs" />
+    <Compile Include="Expressions\ContinueStatement.cs" />
+    <Compile Include="Expressions\BreakStatement.cs" />
+    <Compile Include="Expressions\FinallyClause.cs" />
+    <Compile Include="Expressions\Statement.cs" />
+    <Compile Include="Expressions\EmptyStatement.cs" />
+    <Compile Include="Expressions\DoWhileStatement.cs" />
+    <Compile Include="Expressions\ExpressionStatement.cs" />
+    <Compile Include="Expressions\ForEachInStatement.cs" />
+    <Compile Include="Expressions\ForStatement.cs" />
+    <Compile Include="Expressions\FunctionDeclarationStatement.cs" />
+    <Compile Include="Expressions\IfStatement.cs" />
+    <Compile Include="Expressions\Program.cs" />
+    <Compile Include="Expressions\ReturnStatement.cs" />
+    <Compile Include="Expressions\SwitchStatement.cs" />
+    <Compile Include="Expressions\Expression.cs" />
+    <Compile Include="Expressions\Indexer.cs" />
+    <Compile Include="Expressions\IStatementVisitor.cs" />
+    <Compile Include="Expressions\IJintVisitor.cs" />
+    <Compile Include="Expressions\TernaryExpression.cs" />
+    <Compile Include="Expressions\ThrowStatement.cs" />
+    <Compile Include="Expressions\TryStatement.cs" />
+    <Compile Include="Expressions\UnaryExpression.cs" />
+    <Compile Include="Expressions\UnaryExpressionType.cs" />
+    <Compile Include="Expressions\ValueExpression.cs" />
+    <Compile Include="Expressions\VariableDeclarationStatement.cs" />
+    <Compile Include="Expressions\WhileStatement.cs" />
+    <Compile Include="Debugger\BreakPoint.cs" />
+    <Compile Include="Debugger\DebugInformation.cs" />
+    <Compile Include="Debugger\SourceCodeDescriptor.cs" />
+    <Compile Include="Native\ClrFunction.cs" />
+    <Compile Include="Native\INativeIndexer.cs" />
+    <Compile Include="Native\NativeArrayIndexer`1.cs" />
+    <Compile Include="Native\NativeIndexer.cs" />
+    <Compile Include="Native\NativeOverloadImpl`2.cs" />
+    <Compile Include="Native\NativeDescriptor.cs" />
+    <Compile Include="Native\NativeConstructor.cs" />
+    <Compile Include="Native\NativeMethodOverload.cs" />
+    <Compile Include="Native\ILiteral.cs" />
+    <Compile Include="Native\NativeMethod.cs" />
+    <Compile Include="Native\LinkedDescriptor.cs" />
+    <Compile Include="Native\NativeGenericType.cs" />
+    <Compile Include="Native\NativeTypeConstructor.cs" />
+    <Compile Include="Native\IGlobal.cs" />
+    <Compile Include="Native\JsApplyFunction.cs" />
+    <Compile Include="Native\DescriptorType.cs" />
+    <Compile Include="Native\Descriptor.cs" />
+    <Compile Include="Native\JsComparer.cs" />
+    <Compile Include="Native\JsConstructor.cs" />
+    <Compile Include="Native\JsError.cs" />
+    <Compile Include="Native\JsErrorConstructor.cs" />
+    <Compile Include="Native\PropertyDescriptor.cs" />
+    <Compile Include="Native\PropertyDescriptor`1.cs" />
+    <Compile Include="Native\ValueDescriptor.cs" />
+    <Compile Include="Native\ClrImplDefinition`1.cs" />
+    <Compile Include="Native\JsClrConstructorInfo.cs" />
+    <Compile Include="Native\JsClrMethodInfo.cs" />
+    <Compile Include="Native\JsException.cs" />
+    <Compile Include="Native\JsFunctionWrapper.cs" />
+    <Compile Include="Native\JsArguments.cs" />
+    <Compile Include="Native\JsScope.cs" />
+    <Compile Include="Native\JsCallFunction.cs" />
+    <Compile Include="Native\JsDateConstructor.cs" />
+    <Compile Include="Native\JsFunctionConstructor.cs" />
+    <Compile Include="Native\JsNumberConstructor.cs" />
+    <Compile Include="Native\JsRegExpConstructor.cs" />
+    <Compile Include="Native\JsStringConstructor.cs" />
+    <Compile Include="Native\JsBooleanConstructor.cs" />
+    <Compile Include="Native\JsArrayConstructor.cs" />
+    <Compile Include="Native\JsDictionaryObject.cs" />
+    <Compile Include="Native\JsNull.cs" />
+    <Compile Include="Native\JsObjectConstructor.cs" />
+    <Compile Include="Native\JsInstance.cs" />
+    <Compile Include="Native\JsUndefined.cs" />
+    <Compile Include="Native\JsRegExp.cs" />
+    <Compile Include="Native\JsMathConstructor.cs" />
+    <Compile Include="Native\JsBoolean.cs" />
+    <Compile Include="Native\JsString.cs" />
+    <Compile Include="Native\JsNumber.cs" />
+    <Compile Include="Native\JsGlobal.cs" />
+    <Compile Include="Native\JsArray.cs" />
+    <Compile Include="Native\JsDate.cs" />
+    <Compile Include="Native\JsObject.cs" />
+    <Compile Include="Native\JsFunction.cs" />
+    <Compile Include="Native\PropertyAttributes.cs" />
+    <Compile Include="Marshal\JsMethodImpl.cs" />
+    <Compile Include="Marshal\ConstructorImpl.cs" />
+    <Compile Include="Marshal\JsGetter.cs" />
+    <Compile Include="Marshal\JsSetter.cs" />
+    <Compile Include="Marshal\JsIndexerGetter.cs" />
+    <Compile Include="Marshal\JsIndexerSetter.cs" />
+    <Compile Include="Marshal\JsFunctionDelegate.cs" />
+    <Compile Include="Marshal\JsPropertyAttribute.cs" />
+    <Compile Include="Marshal\ProxyHelper.cs" />
+    <Compile Include="Marshal\RawJsMethodAttribute.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

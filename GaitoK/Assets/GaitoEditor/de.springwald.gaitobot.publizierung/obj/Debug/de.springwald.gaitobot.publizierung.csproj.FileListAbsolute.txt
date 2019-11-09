@@ -1,0 +1,7 @@
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot.publizierung\bin\Debug\de.springwald.gaitobot.publizierung.dll
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot.publizierung\bin\Debug\de.springwald.gaitobot.publizierung.pdb
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot.publizierung\bin\Debug\de.springwald.toolbox.dll
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot.publizierung\obj\Debug\de.springwald.gaitobot.publizierung.csprojAssemblyReference.cache
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot.publizierung\obj\Debug\de.springwald.gaitobot.publizierung.csproj.CopyComplete
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot.publizierung\obj\Debug\de.springwald.gaitobot.publizierung.dll
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot.publizierung\obj\Debug\de.springwald.gaitobot.publizierung.pdb

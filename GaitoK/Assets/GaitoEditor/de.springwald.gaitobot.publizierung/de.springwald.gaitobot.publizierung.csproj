@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\de.springwald.gaitobot.publizierung.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFCD8B67-D8A0-461F-BD3D-7B052503C3A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>de.springwald.gaitobot.publizierung</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>de.springwald.gaitobot.publizierung</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="de.springwald.toolbox">
+      <HintPath>lib\de.springwald.toolbox.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AIMLDateiUebertragung.cs" />
+    <Compile Include="DateiPublizierungsInfos.cs" />
+    <Compile Include="PublizierDienst.cs" />
+    <Compile Include="Gaitobot_de_publizieren\Publizieren.cs" />
+    <Compile Include="Gaitobot_de_publizieren\AIMLDateiUebertragung.cs" />
+    <Compile Include="Gaitobot_de_publizieren\DateiPublizierungsInfos.cs" />
+    <Compile Include="Gaitobot_de_publizieren\UebertrageAIMLDateiCompletedEventHandler.cs" />
+    <Compile Include="Gaitobot_de_publizieren\ReseteGaitoBotCompletedEventHandler.cs" />
+    <Compile Include="Gaitobot_de_publizieren\ExistsGaitoBotIDCompletedEventHandler.cs" />
+    <Compile Include="Gaitobot_de_publizieren\ExistsGaitoBotIDCompletedEventArgs.cs" />
+    <Compile Include="Gaitobot_de_publizieren\MaxKBWissenCompletedEventHandler.cs" />
+    <Compile Include="Gaitobot_de_publizieren\MaxKBWissenCompletedEventArgs.cs" />
+    <Compile Include="Gaitobot_de_publizieren\AlteOderGeloeschteDateienLoeschenUndHochzuladendeZ.cs" />
+    <Compile Include="Gaitobot_de_publizieren\1AlteOderGeloeschteDateienLoeschenUndHochzuladendeZ.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="MultiLang\ml.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

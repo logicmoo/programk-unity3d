@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<aiml>
+<!--author: Administrator-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>TARGET BOTSTART</pattern>
+	<template>This is the greeting of a GaitoBot conversation.</template>
+</category>
+</aiml>

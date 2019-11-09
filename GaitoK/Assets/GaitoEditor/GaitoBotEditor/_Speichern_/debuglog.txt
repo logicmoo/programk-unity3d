@@ -1,0 +1,7 @@
+---------------------------------------------------------
+Protokollstart: 11/7/2019 2:54:10 PM
+---------------------------------------------------------
+   ... Öffne Datei W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\GaitoBotEditor\bin\Debug\..\..\_Speichern_\workspaces\1\MyFirstAimlFile.aiml
+   ... Öffne Datei W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\GaitoBotEditor\bin\Debug\..\..\_Speichern_\workspaces\1\update013.aiml
+   ... Öffne Datei W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\GaitoBotEditor\bin\Debug\..\..\_Speichern_\workspaces\1\chomsky001.aiml
+   ... Öffne Datei W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\GaitoBotEditor\bin\Debug\..\..\_Speichern_\workspaces\1\nonameStartup.startup

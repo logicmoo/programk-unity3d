@@ -1,0 +1,10 @@
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.toolbox\bin\Debug\de.springwald.toolbox.dll
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.toolbox\bin\Debug\de.springwald.toolbox.pdb
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.toolbox\obj\Debug\de.springwald.toolbox.csprojAssemblyReference.cache
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.toolbox\obj\Debug\de.springwald.toolbox.frmFeedback.resources
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.toolbox\obj\Debug\de.springwald.toolbox.frmFehlerReport.resources
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.toolbox\obj\Debug\de.springwald.toolbox.frmInput.resources
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.toolbox\obj\Debug\de.springwald.toolbox.Resources.xml.resources
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.toolbox\obj\Debug\de.springwald.toolbox.csproj.GenerateResource.cache
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.toolbox\obj\Debug\de.springwald.toolbox.dll
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.toolbox\obj\Debug\de.springwald.toolbox.pdb

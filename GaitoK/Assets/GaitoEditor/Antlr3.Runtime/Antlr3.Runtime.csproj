@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\Antlr3.Runtime.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0314B0AE-17AD-4D8F-A81F-CFA06C7E2ACA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Antlr3.Runtime</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>3.3.1.7705</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Antlr.Runtime</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IIntStream.cs" />
+    <Compile Include="ICharStream.cs" />
+    <Compile Include="ANTLRStringStream.cs" />
+    <Compile Include="ANTLRFileStream.cs" />
+    <Compile Include="ANTLRReaderStream.cs" />
+    <Compile Include="ANTLRInputStream.cs" />
+    <Compile Include="BaseRecognizer.cs" />
+    <Compile Include="BitSet.cs" />
+    <Compile Include="ITokenStream.cs" />
+    <Compile Include="ITokenStreamInformation.cs" />
+    <Compile Include="BufferedTokenStream.cs" />
+    <Compile Include="CharStreamConstants.cs" />
+    <Compile Include="CharStreamState.cs" />
+    <Compile Include="IToken.cs" />
+    <Compile Include="ClassicToken.cs" />
+    <Compile Include="CommonToken.cs" />
+    <Compile Include="CommonTokenStream.cs" />
+    <Compile Include="SpecialStateTransitionHandler.cs" />
+    <Compile Include="DFA.cs" />
+    <Compile Include="RecognitionException.cs" />
+    <Compile Include="EarlyExitException.cs" />
+    <Compile Include="FailedPredicateException.cs" />
+    <Compile Include="GrammarRuleAttribute.cs" />
+    <Compile Include="IRuleReturnScope.cs" />
+    <Compile Include="IRuleReturnScope`1.cs" />
+    <Compile Include="IAstRuleReturnScope.cs" />
+    <Compile Include="IAstRuleReturnScope`1.cs" />
+    <Compile Include="ITokenSource.cs" />
+    <Compile Include="LegacyCommonTokenStream.cs" />
+    <Compile Include="Lexer.cs" />
+    <Compile Include="MismatchedSetException.cs" />
+    <Compile Include="MismatchedNotSetException.cs" />
+    <Compile Include="MismatchedRangeException.cs" />
+    <Compile Include="MismatchedTokenException.cs" />
+    <Compile Include="MismatchedTreeNodeException.cs" />
+    <Compile Include="MissingTokenException.cs" />
+    <Compile Include="NoViableAltException.cs" />
+    <Compile Include="Parser.cs" />
+    <Compile Include="ParserRuleReturnScope`1.cs" />
+    <Compile Include="RecognizerSharedState.cs" />
+    <Compile Include="TokenChannels.cs" />
+    <Compile Include="TokenTypes.cs" />
+    <Compile Include="Tokens.cs" />
+    <Compile Include="Tokens`1.cs" />
+    <Compile Include="TokenRewriteStream.cs" />
+    <Compile Include="UnbufferedTokenStream.cs" />
+    <Compile Include="UnwantedTokenException.cs" />
+    <Compile Include="Debug\IDebugEventListener.cs" />
+    <Compile Include="Misc\FastQueue`1.cs" />
+    <Compile Include="Misc\LookaheadStream`1.cs" />
+    <Compile Include="Tree\ITree.cs" />
+    <Compile Include="Tree\BaseTree.cs" />
+    <Compile Include="Tree\ITreeAdaptor.cs" />
+    <Compile Include="Tree\BaseTreeAdaptor.cs" />
+    <Compile Include="Tree\AntlrRuntime_BaseTreeDebugView.cs" />
+    <Compile Include="Tree\ITreeNodeStream.cs" />
+    <Compile Include="Tree\BufferedTreeNodeStream.cs" />
+    <Compile Include="Tree\CommonTree.cs" />
+    <Compile Include="Tree\CommonErrorNode.cs" />
+    <Compile Include="Tree\CommonTreeAdaptor.cs" />
+    <Compile Include="Tree\CommonTreeNodeStream.cs" />
+    <Compile Include="Tree\DotTreeGenerator.cs" />
+    <Compile Include="Tree\ITreeVisitorAction.cs" />
+    <Compile Include="Tree\TreeVisitorAction.cs" />
+    <Compile Include="Tree\ParseTree.cs" />
+    <Compile Include="Tree\RewriteCardinalityException.cs" />
+    <Compile Include="Tree\RewriteEarlyExitException.cs" />
+    <Compile Include="Tree\RewriteEmptyStreamException.cs" />
+    <Compile Include="Tree\RewriteRuleElementStream.cs" />
+    <Compile Include="Tree\RewriteRuleNodeStream.cs" />
+    <Compile Include="Tree\RewriteRuleSubtreeStream.cs" />
+    <Compile Include="Tree\RewriteRuleTokenStream.cs" />
+    <Compile Include="Tree\TreeConstants.cs" />
+    <Compile Include="Tree\TreeParser.cs" />
+    <Compile Include="Tree\TreeFilter.cs" />
+    <Compile Include="Tree\TreeIterator.cs" />
+    <Compile Include="Tree\TreePatternLexer.cs" />
+    <Compile Include="Tree\TreePatternParser.cs" />
+    <Compile Include="Tree\TreeRewriter.cs" />
+    <Compile Include="Tree\TreeRuleReturnScope`1.cs" />
+    <Compile Include="Tree\TreeVisitor.cs" />
+    <Compile Include="Tree\TreeWizard.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

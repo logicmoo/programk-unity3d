@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\GaitoBotEditorCore.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0AC0C95-2B10-481B-A427-C4C3375568BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>GaitoBotEditorCore</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>2.0.6109.32924</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>GaitoBotEditorCore</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="de.springwald.toolbox">
+      <HintPath>lib\de.springwald.toolbox.dll</HintPath>
+    </Reference>
+    <Reference Include="de.springwald.gaitobot.content">
+      <HintPath>lib\de.springwald.gaitobot.content.dll</HintPath>
+    </Reference>
+    <Reference Include="de.springwald.xml">
+      <HintPath>lib\de.springwald.xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="de.springwald.gaitobot.publizierung">
+      <HintPath>lib\de.springwald.gaitobot.publizierung.dll</HintPath>
+    </Reference>
+    <Reference Include="de.springwald.gaitobot2">
+      <HintPath>lib\de.springwald.gaitobot2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MultiLang\ml.cs" />
+    <Compile Include="AIMLDateiKommentare.cs" />
+    <Compile Include="Arbeitsbereich.cs" />
+    <Compile Include="ArbeitsbereichDateiverwaltung.cs" />
+    <Compile Include="IArbeitsbereichDatei.cs" />
+    <Compile Include="AIMLCategory.cs" />
+    <Compile Include="AIMLDatei.cs" />
+    <Compile Include="AIMLDTD.cs" />
+    <Compile Include="ArbeitsbereichFokus.cs" />
+    <Compile Include="ArbeitsbereichMetaInfos.cs" />
+    <Compile Include="ArbeitsbereichVerlauf.cs" />
+    <Compile Include="ArbeitsbereichVerwaltung.cs" />
+    <Compile Include="AIMLCategoryNodeSortierer.cs" />
+    <Compile Include="Suchen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucArbeitsbereichToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Export.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MultiLang.cs" />
+    <Compile Include="StartupDateiDtd.cs" />
+    <Compile Include="StartupDatei_XmlRegelwerk.cs" />
+    <Compile Include="StartUpDTD.cs" />
+    <Compile Include="LizenzManager.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="ResReader.cs" />
+    <Compile Include="AIMLTopic.cs" />
+    <Compile Include="ucAIMLDateiListe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucCategoryXMLEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucCategoryListe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTopicListe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AimlXmlRegelwerk.cs" />
+    <Compile Include="StartupDatei.cs" />
+    <Compile Include="WorkflowAnalyser.cs" />
+    <Compile Include="WorkflowElementCategory.cs" />
+    <Compile Include="WorkflowKlickbereich.cs" />
+    <Compile Include="Publizieren\PublizierenEventArgs.cs" />
+    <Compile Include="Publizieren\ArbeitsbereichPublizieren.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="controls\CategoryCollectionLister.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\Publizieren.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\ucMeisteSRAIs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\ucBotDenkprotokoll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\ucBotTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\ucWorkflow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\ucWorkflowScrollbox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\ucWorkflowToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContentHinzulinken\ContentHinzulinken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContentHinzulinken\ContentInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentHinzulinken\ContentHinzulinken.resx" />
+    <EmbeddedResource Include="ContentHinzulinken\ContentInfo.resx" />
+    <EmbeddedResource Include="controls\CategoryCollectionLister.resx" />
+    <EmbeddedResource Include="controls\Publizieren.resx" />
+    <EmbeddedResource Include="controls\ucBotDenkprotokoll.resx" />
+    <EmbeddedResource Include="controls\ucBotTest.resx" />
+    <EmbeddedResource Include="controls\ucMeisteSRAIs.resx" />
+    <EmbeddedResource Include="controls\ucWorkflow.resx" />
+    <EmbeddedResource Include="controls\ucWorkflowScrollbox.resx" />
+    <EmbeddedResource Include="controls\ucWorkflowToolbar.resx" />
+    <EmbeddedResource Include="Export.resx" />
+    <EmbeddedResource Include="MultiLang.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Resources\aiml.dtd" />
+    <EmbeddedResource Include="Resources\GaitoBotEditorCore.resx" />
+    <EmbeddedResource Include="Resources\startup.dtd" />
+    <EmbeddedResource Include="Suchen.resx" />
+    <EmbeddedResource Include="ucAIMLDateiListe.resx" />
+    <EmbeddedResource Include="ucArbeitsbereichToolbar.resx" />
+    <EmbeddedResource Include="ucCategoryListe.resx" />
+    <EmbeddedResource Include="ucCategoryXMLEditor.resx" />
+    <EmbeddedResource Include="ucTopicListe.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\de.springwald.toolbox.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC33A0EC-37F3-4631-897C-42E2A955B919}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>de.springwald.toolbox</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.6109.32916</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>de.springwald.toolbox</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ToolboxImaging.cs" />
+    <Compile Include="EventArgs`1.cs" />
+    <Compile Include="EventArgs`2.cs" />
+    <Compile Include="GenericConverter`2.cs" />
+    <Compile Include="InterceptKeys.cs" />
+    <Compile Include="KlappbareGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ConfigDatei.cs" />
+    <Compile Include="Debugger.cs" />
+    <Compile Include="DebuggerNeueZeileEventArgs.cs" />
+    <Compile Include="DebuggerNeueZeileEventHandler.cs" />
+    <Compile Include="TransportRichtungen.cs" />
+    <Compile Include="FormObjektDatenTransporter.cs" />
+    <Compile Include="frmFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFehlerReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputBox.cs" />
+    <Compile Include="LPTPort.cs" />
+    <Compile Include="RebootRegistry.cs" />
+    <Compile Include="RectangleCollection.cs" />
+    <Compile Include="RessourcenReader.cs" />
+    <Compile Include="ResReader.cs" />
+    <Compile Include="IntSorterComparer.cs" />
+    <Compile Include="IntSorterItem.cs" />
+    <Compile Include="IntSorterComparerReverse.cs" />
+    <Compile Include="ToolboxSonstiges.cs" />
+    <Compile Include="ToolboxStrings.cs" />
+    <Compile Include="ToolboxUsercontrols.cs" />
+    <Compile Include="ToolboxXML.cs" />
+    <Compile Include="Web\EmailTools.cs" />
+    <Compile Include="Web\MirrorControl.cs" />
+    <Compile Include="Web\UrlBuilder.cs" />
+    <Compile Include="Web\WebAnwendungsKontext.cs" />
+    <Compile Include="Web\WebPlaceholderTools.cs" />
+    <Compile Include="Web\WebUserDetector.cs" />
+    <Compile Include="Text\EncodingTools.cs" />
+    <Compile Include="Text\StringTools.cs" />
+    <Compile Include="Serialisierung\DeepCloner`1.cs" />
+    <Compile Include="Serialisierung\GenericSerializationHelperClass`1.cs" />
+    <Compile Include="Serialisierung\IObjektSerialisierVerwaltbar.cs" />
+    <Compile Include="Serialisierung\ObjektSerialisiererVerwaltung`1.cs" />
+    <Compile Include="Serialisierung\ObjektSerialisierVerwaltungTiefe2`1.cs" />
+    <Compile Include="IO\FileInfoRelative.cs" />
+    <Compile Include="IO\FileTools.cs" />
+    <Compile Include="IO\IFileLeseZugriff.cs" />
+    <Compile Include="IO\IOTools.cs" />
+    <Compile Include="Impressum\Impressum.cs" />
+    <Compile Include="file\DateiChecksumme.cs" />
+    <Compile Include="Error\Fehlerbehandlung.cs" />
+    <Compile Include="Cyprography\Hasher.cs" />
+    <Compile Include="caching\ICacheParameter.cs" />
+    <Compile Include="caching\IFileNameBasedCache`1.cs" />
+    <Compile Include="caching\ObjektCache`2.cs" />
+    <Compile Include="caching\ObjectCacheContainer`2.cs" />
+    <Compile Include="caching\XmlDomDokFileCache.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmFeedback.resx" />
+    <EmbeddedResource Include="frmFehlerReport.resx" />
+    <EmbeddedResource Include="frmInput.resx" />
+    <EmbeddedResource Include="Resources\xml.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

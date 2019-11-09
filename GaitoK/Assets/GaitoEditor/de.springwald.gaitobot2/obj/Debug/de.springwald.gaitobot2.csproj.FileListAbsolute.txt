@@ -1,0 +1,11 @@
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\bin\Debug\de.springwald.gaitobot2.dll
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\bin\Debug\de.springwald.gaitobot2.pdb
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\bin\Debug\de.springwald.toolbox.dll
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\bin\Debug\Jint.dll
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\obj\Debug\de.springwald.gaitobot2.csprojAssemblyReference.cache
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\obj\Debug\de.springwald.gaitobot2.Resources.gaitobot.resources
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\obj\Debug\de.springwald.gaitobot2.Resources.gaitobot_de.resources
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\obj\Debug\de.springwald.gaitobot2.csproj.GenerateResource.cache
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\obj\Debug\de.springwald.gaitobot2.csproj.CopyComplete
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\obj\Debug\de.springwald.gaitobot2.dll
+W:\opt\logicmoo_workspace\packs_sys\GymTalk\src\de.springwald.gaitobot2\obj\Debug\de.springwald.gaitobot2.pdb

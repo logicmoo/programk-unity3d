@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\de.springwald.gaitobot2.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90C7B2C3-FAF3-4BA2-BE2F-3723E12F96F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>de.springwald.gaitobot2</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.6109.32917</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>de.springwald.gaitobot2</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml" />
+    <Reference Include="Jint">
+      <HintPath>lib\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="de.springwald.toolbox">
+      <HintPath>lib\de.springwald.toolbox.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AntwortFinder.cs" />
+    <Compile Include="AntwortSatz.cs" />
+    <Compile Include="CategorySortierer.cs" />
+    <Compile Include="ConditionStatus.cs" />
+    <Compile Include="GaitoBotEigenschaft.cs" />
+    <Compile Include="GaitoBotSessionSchritt.cs" />
+    <Compile Include="GaitoBotStartupDatei.cs" />
+    <Compile Include="GaitoScriptInterpreter.cs" />
+    <Compile Include="StandardGlobaleEigenschaften.cs" />
+    <Compile Include="StartupInfos.cs" />
+    <Compile Include="UserEigenschaften.cs" />
+    <Compile Include="MatchString.cs" />
+    <Compile Include="PatternMatcher.cs" />
+    <Compile Include="Wissen.cs" />
+    <Compile Include="GaitoBotEigenschaften.cs" />
+    <Compile Include="BotDenkProtokollSchritt.cs" />
+    <Compile Include="WissensCategory.cs" />
+    <Compile Include="WissensLader.cs" />
+    <Compile Include="DomDocLadePaket.cs" />
+    <Compile Include="GaitoBotInterpreter.cs" />
+    <Compile Include="Normalisierung.cs" />
+    <Compile Include="GaitoBotSession.cs" />
+    <Compile Include="ResReader.cs" />
+    <Compile Include="WissenThema.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\gaitobot.resx" />
+    <EmbeddedResource Include="Resources\gaitobot_de.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

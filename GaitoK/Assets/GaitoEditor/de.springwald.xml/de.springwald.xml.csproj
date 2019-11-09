@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\de.springwald.xml.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{469B7EB8-D597-4FE2-A2B3-0B5C71426B9F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>de.springwald.xml</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.6109.32918</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>de.springwald.xml</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="de.springwald.toolbox">
+      <HintPath>lib\de.springwald.toolbox.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ucXMLAddElement2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucXMLAddElementGruppe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ResReader.cs" />
+    <Compile Include="DarstellungsArten.cs" />
+    <Compile Include="XMLRegelwerk.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="editor\XMLElementGruppe.cs" />
+    <Compile Include="editor\XMLElementGruppenListe.cs" />
+    <Compile Include="editor\frmDokFehlerZeigen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\ucXMLEditAttribut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\ucXMLEditAttributes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\ucXMLQuellcodeDebugger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\ucXMLQuellCodeFehlerliste.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\ucXMLQuellcodeViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\ucXMLToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\XMLUndoHandler.cs" />
+    <Compile Include="editor\XMLUndoSchritt.cs" />
+    <Compile Include="editor\XMLUndoSchrittAttributRemoved.cs" />
+    <Compile Include="editor\XMLUndoSchrittNodeChanged.cs" />
+    <Compile Include="editor\XMLUndoSchrittNodeInserted.cs" />
+    <Compile Include="editor\XMLUndoSchrittNodeRemoved.cs" />
+    <Compile Include="editor\XMLEditor.cs" />
+    <Compile Include="editor\XMLPaintArten.cs" />
+    <Compile Include="editor\XMLEditorPaintPos.cs" />
+    <Compile Include="editor\XMLElement.cs" />
+    <Compile Include="editor\XMLElement_Kommentar.cs" />
+    <Compile Include="editor\XMLElement_StandardNode.cs" />
+    <Compile Include="editor\XMLElement_TextNode.cs" />
+    <Compile Include="editor\XMLQuellcodeAlsRTF.cs" />
+    <Compile Include="editor\textnode\TextTeil.cs" />
+    <Compile Include="editor\textnode\TextTeiler.cs" />
+    <Compile Include="dtd\DTDAttribut.cs" />
+    <Compile Include="dtd\DTDChildElemente.cs" />
+    <Compile Include="dtd\DTDElement.cs" />
+    <Compile Include="dtd\DTDEntity.cs" />
+    <Compile Include="dtd\DTD.cs" />
+    <Compile Include="dtd\DTDNodeEditCheck.cs" />
+    <Compile Include="dtd\DTDTestmuster.cs" />
+    <Compile Include="dtd\AlleMoeglichenElementeEinesChildblocks.cs" />
+    <Compile Include="dtd\DTDReaderDTD.cs" />
+    <Compile Include="dtd\DTDReaderSchema.cs" />
+    <Compile Include="dtd\pruefer\DTDPruefer.cs" />
+    <Compile Include="dtd\pruefer\DTDPruefFehler.cs" />
+    <Compile Include="cursor\XMLCursorPositionen.cs" />
+    <Compile Include="cursor\MausKlickAktionen.cs" />
+    <Compile Include="cursor\XMLCursor.cs" />
+    <Compile Include="cursor\XMLCursorPos.cs" />
+    <Compile Include="MultiLang\ml.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="editor\frmDokFehlerZeigen.resx" />
+    <EmbeddedResource Include="editor\ucXMLEditAttribut.resx" />
+    <EmbeddedResource Include="editor\ucXMLEditAttributes.resx" />
+    <EmbeddedResource Include="editor\ucXMLQuellcodeDebugger.resx" />
+    <EmbeddedResource Include="editor\ucXMLQuellCodeFehlerliste.resx" />
+    <EmbeddedResource Include="editor\ucXMLQuellcodeViewer.resx" />
+    <EmbeddedResource Include="editor\ucXMLToolbar.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Resources\xml.resx" />
+    <EmbeddedResource Include="ucXMLAddElement2.resx" />
+    <EmbeddedResource Include="ucXMLAddElementGruppe.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\en\GaitoBotEditorCore.resources.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DAF0522-CEAC-480F-90E3-8B24B4727EC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>GaitoBotEditorCore.resources</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>2.0.6109.32924</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GaitoBotEditorCore\ContentHinzulinken\ContentHinzulinken\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\controls\CategoryCollectionLister\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\controls\Publizieren\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\controls\ucBotDenkprotokoll\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\controls\ucBotTest\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\controls\ucMeisteSRAIs\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\controls\ucWorkflow\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\controls\ucWorkflowScrollbox\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\controls\ucWorkflowToolbar\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\Export\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\MultiLang\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\Suchen\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\ucAIMLDateiListe\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\ucArbeitsbereichToolbar\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\ucCategoryListe\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\ucCategoryXMLEditor\en.resx" />
+    <EmbeddedResource Include="GaitoBotEditorCore\ucTopicListe\en.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

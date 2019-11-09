@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\GaitoBotEditor.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10CE0361-BBA9-4658-9AE4-A8175E904419}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>GaitoBotEditor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>2.10.0.42867</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>GaitoBotEditor</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GaitoBotEditor.programm</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="SandDock">
+      <HintPath>lib\SandDock.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MultiLang\ml.cs" />
+    <Compile Include="EULA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArbeitsbereichSteuerelement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiLang.cs" />
+    <Compile Include="programm.cs" />
+    <Compile Include="ResReader.cs" />
+    <Compile Include="SpracheAuswaehlen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AktuelleNachrichten.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Arbeitsbereiche.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EinArbeitsBereichListenEintrag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Feedback.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Startseite.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="startseite\ErsteSchritte.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AktuelleNachrichten.resx" />
+    <EmbeddedResource Include="Arbeitsbereiche.resx" />
+    <EmbeddedResource Include="ArbeitsbereichSteuerelement.resx" />
+    <EmbeddedResource Include="EinArbeitsBereichListenEintrag.resx" />
+    <EmbeddedResource Include="EULA.resx" />
+    <EmbeddedResource Include="exe.licenses" />
+    <EmbeddedResource Include="Feedback.resx" />
+    <EmbeddedResource Include="frmAbout.resx" />
+    <EmbeddedResource Include="frmMain.resx" />
+    <EmbeddedResource Include="frmSplashScreen.resx" />
+    <EmbeddedResource Include="MultiLang.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Resources\GaitoBotEditor.resx" />
+    <EmbeddedResource Include="SpracheAuswaehlen.resx" />
+    <EmbeddedResource Include="Startseite.resx" />
+    <EmbeddedResource Include="startseite\ErsteSchritte.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\de.springwald.toolbox.fakes" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\de.springwald.gaitobot.content\de.springwald.gaitobot.content.csproj">
+      <Project>{79eda14d-bbad-4cea-ab65-65499cd9b25e}</Project>
+      <Name>de.springwald.gaitobot.content</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\de.springwald.gaitobot.publizierung\de.springwald.gaitobot.publizierung.csproj">
+      <Project>{dfcd8b67-d8a0-461f-bd3d-7b052503c3a2}</Project>
+      <Name>de.springwald.gaitobot.publizierung</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\de.springwald.gaitobot.verwaltung.resources\de.springwald.gaitobot.verwaltung.resources.csproj">
+      <Project>{8181861f-ff15-4191-9c5b-f0fc389cc30b}</Project>
+      <Name>de.springwald.gaitobot.verwaltung.resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\de.springwald.gaitobot.verwaltung\de.springwald.gaitobot.verwaltung.csproj">
+      <Project>{fe57ad5f-2151-4039-9e76-0186481ec726}</Project>
+      <Name>de.springwald.gaitobot.verwaltung</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\de.springwald.gaitobot2\de.springwald.gaitobot2.csproj">
+      <Project>{90c7b2c3-faf3-4ba2-be2f-3723e12f96f1}</Project>
+      <Name>de.springwald.gaitobot2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\de.springwald.toolbox\de.springwald.toolbox.csproj">
+      <Project>{dc33a0ec-37f3-4631-897c-42e2a955b919}</Project>
+      <Name>de.springwald.toolbox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\de.springwald.xml\de.springwald.xml.csproj">
+      <Project>{469b7eb8-d597-4fe2-a2b3-0b5c71426b9f}</Project>
+      <Name>de.springwald.xml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GaitoBotEditor.resources\GaitoBotEditor.resources.csproj">
+      <Project>{3bd072d3-2966-4c64-b55d-2b1e926b797d}</Project>
+      <Name>GaitoBotEditor.resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GaitoBotEditorCore.resources\GaitoBotEditorCore.resources.csproj">
+      <Project>{9daf0522-ceac-480f-90e3-8b24b4727ec7}</Project>
+      <Name>GaitoBotEditorCore.resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GaitoBotEditorCore\GaitoBotEditorCore.csproj">
+      <Project>{c0ac0c95-2b10-481b-a427-c4c3375568bf}</Project>
+      <Name>GaitoBotEditorCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

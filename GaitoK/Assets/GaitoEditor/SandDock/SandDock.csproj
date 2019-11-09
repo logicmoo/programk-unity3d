@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\AppData\Local\Apps\2.0\AMK4CRNH.1P0\83OD2GAZ.QLB\gait..tion_0000000000000000_0002.000a_0f204e9a356efc4e\SandDock.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{713A9141-F74F-4A90-8DB3-7B3853029528}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SandDock</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>3.0.5.1</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TD\SandDock\x10ac79a4257c7f52.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\SandDockManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\ShowControlContextMenuEventHandler.cs" />
+    <Compile Include="TD\SandDock\ShowControlContextMenuEventArgs.cs" />
+    <Compile Include="TD\SandDock\DockControlEventArgs.cs" />
+    <Compile Include="TD\SandDock\DockControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\SandDockLanguage.cs" />
+    <Compile Include="TD\SandDock\ControlLayoutSystem.cs" />
+    <Compile Include="TD\SandDock\LayoutSystemBase.cs" />
+    <Compile Include="TD\SandDock\SplitLayoutSystem.cs" />
+    <Compile Include="TD\SandDock\DockContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\xedb4922162c60d3d.cs" />
+    <Compile Include="TD\SandDock\x890231ddf317379e.cs" />
+    <Compile Include="TD\SandDock\DockingHints.cs" />
+    <Compile Include="TD\SandDock\x7a797590a9beb775.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\x130e0425ae2d4496.cs" />
+    <Compile Include="TD\SandDock\DockSide.cs" />
+    <Compile Include="TD\SandDock\ContainerDockLocation.cs" />
+    <Compile Include="TD\SandDock\x60f3af502af1d663.cs" />
+    <Compile Include="TD\SandDock\x9b2777bb8e78938b.cs" />
+    <Compile Include="TD\SandDock\DocumentLayoutSystem.cs" />
+    <Compile Include="TD\SandDock\x0a9f5257a10031b2.cs" />
+    <Compile Include="TD\SandDock\x87cf4de36131799d.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\x7fc004d490c8a431.cs" />
+    <Compile Include="TD\SandDock\x443cc432acaadb1d.cs" />
+    <Compile Include="TD\SandDock\LayoutUtilities.cs" />
+    <Compile Include="TD\SandDock\DockSituation.cs" />
+    <Compile Include="TD\SandDock\x129cb2a2bdfd0ab2.cs" />
+    <Compile Include="TD\SandDock\DocumentContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\x410f3612b9a8f9de.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\xd936980ea1aac341.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\ContextMenuContext.cs" />
+    <Compile Include="TD\SandDock\WindowMetaData.cs" />
+    <Compile Include="TD\SandDock\xd0aa9d0e7d3446c0.cs" />
+    <Compile Include="TD\SandDock\DockingManager.cs" />
+    <Compile Include="TD\SandDock\x31248f32f85df1dd.cs" />
+    <Compile Include="TD\SandDock\xd0a1f65420a07725.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\DockingRules.cs" />
+    <Compile Include="TD\SandDock\DockControlEventHandler.cs" />
+    <Compile Include="TD\SandDock\DockControlClosingEventArgs.cs" />
+    <Compile Include="TD\SandDock\DockControlClosingEventHandler.cs" />
+    <Compile Include="TD\SandDock\DockControlCloseAction.cs" />
+    <Compile Include="TD\SandDock\WindowOpenMethod.cs" />
+    <Compile Include="TD\SandDock\x5678bb8d80c0f12e.cs" />
+    <Compile Include="TD\SandDock\ContainerDockEdge.cs" />
+    <Compile Include="TD\SandDock\DocumentOverflowMode.cs" />
+    <Compile Include="TD\SandDock\DocumentContainerWindowOpenPosition.cs" />
+    <Compile Include="TD\SandDock\ActiveFilesListEventArgs.cs" />
+    <Compile Include="TD\SandDock\ActiveFilesListEventHandler.cs" />
+    <Compile Include="TD\SandDock\x8e80e1c8bce8caf7.cs" />
+    <Compile Include="TD\SandDock\x09c1c18390e52ebf.cs" />
+    <Compile Include="TD\SandDock\ResolveDockControlEventHandler.cs" />
+    <Compile Include="TD\SandDock\ResolveDockControlEventArgs.cs" />
+    <Compile Include="TD\SandDock\x245a5abec1c73d3a.cs" />
+    <Compile Include="TD\SandDock\LayoutSettings.cs" />
+    <Compile Include="TD\SandDock\DockableWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\TabbedDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\TabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\TabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\TabLayout.cs" />
+    <Compile Include="TD\SandDock\UserDockableWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\UserTabbedDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TD\SandDock\x44c2ba9761cb4dd2.cs" />
+    <Compile Include="TD\SandDock\x807757bdf074f1b8.cs" />
+    <Compile Include="TD\SandDock\Rendering\ITabControlRenderer.cs" />
+    <Compile Include="TD\SandDock\Rendering\RendererBase.cs" />
+    <Compile Include="TD\SandDock\Rendering\SandDockButtonType.cs" />
+    <Compile Include="TD\SandDock\Rendering\BoxModel.cs" />
+    <Compile Include="TD\SandDock\Rendering\BoxEdges.cs" />
+    <Compile Include="TD\SandDock\Rendering\TabTextDisplayMode.cs" />
+    <Compile Include="TD\SandDock\Rendering\WhidbeyRenderer.cs" />
+    <Compile Include="TD\SandDock\Rendering\ThemeAwareRendererBase.cs" />
+    <Compile Include="TD\SandDock\Rendering\WindowsColorScheme.cs" />
+    <Compile Include="TD\SandDock\Rendering\xa811784015ed8842.cs" />
+    <Compile Include="TD\SandDock\Rendering\EverettRenderer.cs" />
+    <Compile Include="TD\SandDock\Rendering\BorderStyle.cs" />
+    <Compile Include="TD\SandDock\Rendering\MilborneRenderer.cs" />
+    <Compile Include="TD\SandDock\Rendering\Office2007ColorScheme.cs" />
+    <Compile Include="TD\SandDock\Rendering\Office2003Renderer.cs" />
+    <Compile Include="TD\SandDock\Rendering\Office2007Renderer.cs" />
+    <Compile Include="TD\SandDock\Rendering\x9c9262004128fe00.cs" />
+    <Compile Include="TD\SandDock\Rendering\xdc4dfd9427bbb983.cs" />
+    <Compile Include="TD\SandDock\Design\DockControlDesigner.cs" />
+    <Compile Include="TD\SandDock\Design\DockContainerDesigner.cs" />
+    <Compile Include="TD\SandDock\Design\DocumentContainerDesigner.cs" />
+    <Compile Include="TD\Util\xf8f9565783602018.cs" />
+    <Compile Include="Divelements\Util\Registration\x294bd621a33dc533.cs" />
+    <Compile Include="Divelements\Util\Registration\x1d91faf71382de33.cs" />
+    <Compile Include="Divelements\Util\Registration\xbd7c5470fc89975b.cs" />
+    <Compile Include="Xenocode\Client\Attributes\AssemblyAttributes\ProcessedByXenocode.cs" />
+    <Compile Include="Xenocode\Client\Attributes\AssemblyAttributes\SuppressDisassembly.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TD\SandDock\Resources\dockinghintbottom.png" />
+    <EmbeddedResource Include="TD\SandDock\Resources\dockinghintcenter.png" />
+    <EmbeddedResource Include="TD\SandDock\Resources\dockinghintleft.png" />
+    <EmbeddedResource Include="TD\SandDock\Resources\dockinghintright.png" />
+    <EmbeddedResource Include="TD\SandDock\Resources\dockinghinttop.png" />
+    <EmbeddedResource Include="TD\SandDock\Resources\splitting.cur" />
+    <EmbeddedResource Include="TD\SandDock\Resources\splittingno.cur" />
+    <EmbeddedResource Include="TD\SandDock\sanddock.png" />
+    <EmbeddedResource Include="TD\SandDock\SandDockManager.bmp" />
+    <EmbeddedResource Include="TD\SandDock\TabControl.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
